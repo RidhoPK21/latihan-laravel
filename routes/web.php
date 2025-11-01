@@ -18,3 +18,4 @@ Route::group(['prefix' => 'app', 'middleware' => 'check.auth'], function () {
 Route::get('/', function () {
     return redirect()->route('app.home');
 });
+// ssdsdcs
